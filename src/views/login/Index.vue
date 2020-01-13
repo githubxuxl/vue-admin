@@ -1,11 +1,25 @@
 <template>
-    <div>this is login page!
-         <el-button type="success">成功按钮</el-button>
+    <div>
     </div>
 </template>
 <script>
 export default {
-    
+    name:'login',
+    components:{},
+    data(){
+        return{
+
+        }
+    },
+    created(){
+
+    },
+    mounted(){
+
+    },
+    methods:{
+        
+    }
 }
 </script>
 <style scoped>
