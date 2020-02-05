@@ -3,6 +3,8 @@
     </div>
 </template>
 <script>
+import { stripScript } from '@/util/validate.js';
+
 export default {
     name:'login',
     components:{},
