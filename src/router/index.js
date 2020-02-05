@@ -6,12 +6,17 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: "/",
-    redirect: "login"
+    redirect: "codeCompare"
   },
   {
     path: "/login",
     name: "login",
-    component: () => import("../views/login/index.vue")
+    component: () => import("@/views/login/index.vue")
+  },
+  {
+    path:"/codeCompare",
+    name:"codeCompare",
+    component:() => import("@/views/codeCompare/CodeCompareIndex.vue")
   }
 ];
 
