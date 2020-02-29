@@ -14,9 +14,9 @@ const routes = [
     component: () => import("@/views/login/index.vue")
   },
   {
-    path:"/codeCompare",
-    name:"codeCompare",
-    component:() => import("@/views/codeCompare/CodeCompareIndex.vue")
+    path: "/codeCompare",
+    name: "codeCompare",
+    component: () => import("@/views/codeCompare/CodeCompareIndex.vue")
   }
 ];
 
