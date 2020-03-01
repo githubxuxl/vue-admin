@@ -17,6 +17,11 @@ const routes = [
     path: "/codeCompare",
     name: "codeCompare",
     component: () => import("@/views/codeCompare/CodeCompareIndex.vue")
+  },
+  {
+    path: "/orgTree",
+    name: "orgTree",
+    component: () => import("@/views/orgTree/orgTreeDemo.vue")
   }
 ];
 
